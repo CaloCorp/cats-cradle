@@ -83,3 +83,21 @@ if (str[i]=== 'u'){
 
 challenge(5)
 indexOfU('You picked the wrong house, bub.')
+
+const firstIndexOfU = function(str){
+
+    
+        let i= 0
+        while (i < str.length){
+        if (str[i]=== 'u'){
+            console.log(i)
+            return
+        }
+            i++
+        }
+        
+        }
+
+
+challenge(6)
+firstIndexOfU('You picked the wrong house, bub.')
