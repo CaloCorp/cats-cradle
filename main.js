@@ -101,3 +101,21 @@ const firstIndexOfU = function(str){
 
 challenge(6)
 firstIndexOfU('You picked the wrong house, bub.')
+
+
+ const firstIndexOfU2 = function(str){
+let found=false;
+let i= 0
+    while (i < str.length){
+        if (str[i]=== 'u' && found === false){
+        console.log(i)
+        found=true
+ }
+ i=i+1
+}
+if (found === false){
+    console.log(-1)
+}
+ }
+challenge(7)
+firstIndexOfU2(`I'm Canadian`)
